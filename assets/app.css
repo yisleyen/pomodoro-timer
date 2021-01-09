@@ -43,6 +43,7 @@ header {
 @media screen and (max-width: 600px) {
   .countdown {
     font-size: 24vw;
+    border: 0px solid rgb(63, 81, 181);
   }
 
   .countdown-info {
