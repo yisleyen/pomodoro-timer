@@ -1,0 +1,66 @@
+body {
+  margin:0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+  min-height: 60px;
+  background: rgb(63, 81, 181);
+  color: #fff;
+}
+
+.logo img {
+  width: 25%;
+}
+
+.pomodoro {
+  margin: 0; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.countdown {
+  font-size: 6vw;
+  border: 12px solid rgb(63, 81, 181);
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.countdown-content {
+  text-align: center;
+}
+
+.countdown-info {
+  font-size: 1vw;
+}
+
+@media screen and (max-width: 600px) {
+  .countdown {
+    font-size: 24vw;
+  }
+
+  .countdown-info {
+    font-size: 4vw;
+  }
+
+  .logo img {
+    width: 80%;
+  }
+}
+
+.button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button img {
+  width: 48px;
+  padding-left: 10px;
+  cursor: pointer;
+}
